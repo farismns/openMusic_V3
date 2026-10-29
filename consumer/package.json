@@ -1,0 +1,22 @@
+{
+  "name": "consumer",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "type": "module",
+  "main": "src/consumer.js",
+  "scripts": {
+    "start": "node src/consumer.js",
+    "lint": "eslint ."
+  },
+  "devDependencies": {
+    "eslint": "^9.39.1",
+    "globals": "^16.5.0"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.9",
+    "dotenv": "^17.2.3",
+    "nodemailer": "^7.0.11",
+    "pg": "^8.16.3"
+  }
+}
